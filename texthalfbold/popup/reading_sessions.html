@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Sessions</title>
+    <link rel="stylesheet" href="bulma.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <style>
+        hr.separator {
+            border: none;
+            border-top: 2px solid #888;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Reading Sessions Title -->
+    <div class="container m-3 has-text-centered">
+        <h2 class="subtitle has-text-weight-bold">Reading Sessions</h2>
+    </div>
+    
+    <!-- Horizontal Line To Separate Title and Info -->
+    <hr class="separator">
+
+    <!-- Reading Sessions Data -->
+    <div class="container m-3 has-text-centered">
+        <ul id="readingSessionsList"></ul>
+        <div class="has-text-success is-light has-text-weight-bold" id="totalReadingTime"></div>
+    </div>
+
+    <!-- Reset History-->
+    <div class="container m-3 has-text-centered">
+        <button class="button is-warning has-text-weight-bold" id="resetDataButton">Reset Reading Sessions Data</button>
+    </div>
+
+    <!-- Timer Button -->
+    <div style="display: flex; justify-content: center;">
+        <a href="popup.html"><button class="container m-3 button has-background-info-light has-text-info has-text-weight-bold">Timer</button></a>
+    </div>
+
+    <!-- Script -->
+    <script src="reading_sessions.js"></script>
+
+</body>
+</html>

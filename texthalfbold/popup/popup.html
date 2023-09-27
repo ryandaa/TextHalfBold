@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Half Bold</title>
+    <link rel="stylesheet" href="bulma.min.css" />
+    <style>
+        .status-container {
+            margin-bottom: 10px;
+        }
+        .reading-label {
+            margin-top: -20px;
+            margin-bottom: 10px;
+        }
+        hr.separator {
+            border: none;
+            border-top: 2px solid #888;
+            color: #333;
+            overflow: visible;
+            text-align: center;
+            height: 5px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container m-3 has-text-centered status-container">
+        <h1 class="title">Text Half Bold</h1>
+    </div>
+    
+    <!-- HORIZONTAL LINE -->
+    <hr class="separator">
+
+    <div class="container m-3 has-text-centered">
+
+        
+    <!-- SPAN TAG USED FOR BUTTONS-->
+
+        <div class="field">
+            <label class="label">Status</label>
+            <span id="runningSpan" class="tag is-success is-light">Running</span>
+            <span id="stoppedSpan" class="tag is-danger is-light">Stopped</span>
+        </div>
+    </div>
+
+    <!-- TIME SPENT READING-->
+
+    <div class="field">
+        <label class="label has-text-centered">Time Spent Reading: </label>
+    </div>
+
+    <!-- TIMER -->
+    <div class="reading-label has-text-centered">
+        <div>
+            <span id="timer" class="is-size-1 has-text-weight-bold" >00:00:00</span>
+        </div>
+        <button class="button is-success" id="timerStartButton">Start</button>
+        <button class="button is-danger" id="timerStopButton">Stop</button>
+        <button class="button is-light" id="timerResetButton">Reset</button>
+    </div>
+
+    <script src="popup.js"></script>
+
+    <!-- BUTTON TO NAVIGATE TO THE READING SESSIONS -->
+    <div style="display: flex; justify-content: center;">
+        <a href="reading_sessions.html"><button class="container m-3 button has-background-info-light has-text-info has-text-weight-bold" >Reading Sessions</button>
+        </a>
+    </div>
+
+</body>
+</html>
