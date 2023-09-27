@@ -1,5 +1,4 @@
 # **TextHalfBold**
-**TextHalfBold** Logo <!-- Replace with your logo path if you have one -->
 
 **TextHalfBold** is a unique Chrome extension that transforms the way you view text. By bolding half of the letters in a word, it offers a fresh perspective on reading online content.
 
