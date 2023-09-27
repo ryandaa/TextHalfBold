@@ -1,53 +1,35 @@
-TextHalfBold is a unique Chrome extension that transforms the way you view text. By bolding half of the letters in a word, it offers a fresh perspective on reading online content.
+ My Python Script
 
-Features
-Half-Bold Transformation: Experience text in a way you've never seen before. Half of the letters in each word will be bolded, providing a unique reading experience.
+This script demonstrates how to use the `math` module to perform basic mathematical operations.
 
-Start & Stop Functionality: With intuitive start and stop buttons, you can easily toggle the extension's functionality on and off.
+```python
+import math
 
-Reading Sessions Library: Track your reading sessions each time you use the extension. This built-in library provides insights into your usage patterns and reading habits.
+# This function calculates the area of a circle.
+# Formula: Area = π * r^2
+def circle_area(radius):
+    return math.pi * math.pow(radius, 2)
 
-Installation
-Clone this repository:
+# This function calculates the circumference of a circle.
+# Formula: Circumference = 2 * π * r
+def circle_circumference(radius):
+    return 2 * math.pi * radius
 
-bash
-Copy code
-git clone https://github.com/your_username/TextHalfBold.git
-Navigate to chrome://extensions/ in your Chrome browser.
+# This function calculates the volume of a sphere.
+# Formula: Volume = (4/3) * π * r^3
+def sphere_volume(radius):
+    return (4/3) * math.pi * math.pow(radius, 3)
 
-Enable "Developer mode" and click on "Load unpacked".
+# This function calculates the surface area of a sphere.
+# Formula: Surface Area = 4 * π * r^2
+def sphere_surface_area(radius):
+    return 4 * math.pi * math.pow(radius, 2)
 
-Select the TextHalfBold directory.
-
-The extension should now be added to your Chrome browser!
-
-Usage
-Click on the TextHalfBold icon in your Chrome extensions bar.
-
-Use the "Start" button to activate the half-bold transformation on the current webpage.
-
-To deactivate, simply click the "Stop" button.
-
-To view your reading sessions, navigate to the built-in library within the extension.
-
-Styling
-The project uses TailwindCSS for styling. Here's a snippet from our output.css:
-
-css
-Copy code
-/* tailwindcss v3.3.2 | MIT License | https://tailwindcss.com */
-/* ... */
-body {
-  margin: 0;
-  line-height: inherit;
-}
-/* ... */
-For the full styling, refer to the output.css file in the repository.
-
-Contributing
-We welcome contributions! Please see our CONTRIBUTING.md for guidelines.
-
-License
-This project is licensed under the MIT License. See LICENSE for details.
-
-Feel free to customize this README to better fit your project's specifics.
+# Test the functions
+r = 5
+print(f"Circle with radius {r}:")
+print(f"Area: {circle_area(r)}")
+print(f"Circumference: {circle_circumference(r)}")
+print(f"\nSphere with radius {r}:")
+print(f"Volume: {sphere_volume(r)}")
+print(f"Surface Area: {sphere_surface_area(r)}")
