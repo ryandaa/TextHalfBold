@@ -1,6 +1,6 @@
 # **TextHalfBold**
 
-**TextHalfBold** is a unique Chrome extension that transforms the way you view text. By bolding half of the letters in a word, it offers a fresh perspective on reading online content.
+**TextHalfBold** is a unique Chrome extension that transforms the way you view text. It's primarily used for users with ADHD or people who generally have a hard time focusing. It's also for people who want to change up their visual reading!  By bolding half of the letters in a word, it offers a fresh perspective on reading online content.
 
 ## Features
 - **Half-Bold Transformation**: Experience text in a way you've never seen before. Half of the letters in each word will be bolded, providing a unique reading experience.
